@@ -1,20 +1,58 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+🚀 Full-Stack AI Career Coach Web Application
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+An AI-powered career guidance platform that helps users with:
 
-### Make sure to create a `.env` file with following variables -
+✨ Resume Enhancement – Upload or paste your resume and get AI-driven improvements with ATS-friendly keywords.
 
-```
-DATABASE_URL=
+📝 Cover Letter Generator – Generate tailored cover letters for specific job roles.
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+🎤 Interview Preparation – Practice with AI-generated mock interview Q&A.
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+📊 Personalized Dashboard – Manage all your documents in one place.
 
-GEMINI_API_KEY=
-```
+🔧 Tech Stack
+
+Frontend: Next.js, Tailwind CSS, Shadcn UI
+
+Backend: Next.js API Routes, Prisma ORM
+
+Database: NeonDB (Serverless PostgreSQL)
+
+Authentication: Clerk
+
+AI Integration: Google Gemini API
+
+Background Jobs: Inngest
+
+Deployment: Vercel
+
+📌 Features
+
+🔐 Secure authentication & onboarding with Clerk
+
+⚡ Fast, scalable, and cloud-native architecture
+
+🤖 AI-enhanced career tools using Gemini API
+
+📂 Modular & extensible design for future features
+
+🎨 Modern, responsive UI with Tailwind + Shadcn
+
+🚀 Getting Started
+# Clone the repository
+git clone https://github.com/ajay-kr-58001/ai-career-coach.git
+
+# Move into the project directory
+cd ai-career-coach
+
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env.local
+
+# Run the development server
+npm run dev
+
+
+App will be running at 👉 http://localhost:3000
